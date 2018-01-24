@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="mz.co.malambe.meunegocio.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/eleven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_anje"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/twelve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonsub"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:textColor="#ffffff"
+            android:backgroundTint="#cc141b"
+            android:background="@drawable/buttonstyle3"
+            android:padding="10dp"
+            android:onClick="btnEntrarOnClick"/>
+        <Button
+            android:id="@+id/buttonsub1"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:textColor="#cc141b"
+            android:background="@drawable/buttonstyle1"
+            android:padding="10dp"
+            android:onClick="btnEntrarOnClick"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
